@@ -66,6 +66,7 @@ export default function CardCharacter(props) {
                 <ListGroup.Item><strong>Altura: </strong>{props.character.height}</ListGroup.Item>
                 <ListGroup.Item><strong>Peso: </strong>{props.character.mass}</ListGroup.Item>
                 <ListGroup.Item><strong>Color de cabello: </strong>{props.character.hair_color}</ListGroup.Item>
+
                 <ListGroup.Item><strong>Año de nacimiento: </strong>{props.character.birth_year}</ListGroup.Item>
                 <ListGroup.Item><strong>Planeta: </strong>{planet.name}</ListGroup.Item>
                 <ListGroup.Item>
